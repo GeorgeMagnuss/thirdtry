@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Cities Information</h1>
+
+        <div class="accordion" id="citiesAccordion">
+            <div class="card">
+                <div class="card-header" id="stockholmHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#stockholmCollapse" aria-expanded="false" aria-controls="stockholmCollapse">
+                            Stockholm
+                        </button>
+                    </h2>
+                </div>
+                <div id="stockholmCollapse" class="collapse" aria-labelledby="stockholmHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about Stockholm.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-2">
+                <div class="card-header" id="denmarkHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#denmarkCollapse" aria-expanded="false" aria-controls="denmarkCollapse">
+                            Denmark
+                        </button>
+                    </h2>
+                </div>
+                <div id="denmarkCollapse" class="collapse" aria-labelledby="denmarkHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about Denmark.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-2">
+                <div class="card-header" id="norwayHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#norwayCollapse" aria-expanded="false" aria-controls="norwayCollapse">
+                            Norway
+                        </button>
+                    </h2>
+                </div>
+                <div id="norwayCollapse" class="collapse" aria-labelledby="norwayHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about Norway.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-2">
+                <div class="card-header" id="parisHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#parisCollapse" aria-expanded="false" aria-controls="parisCollapse">
+                            Paris
+                        </button>
+                    </h2>
+                </div>
+                <div id="parisCollapse" class="collapse" aria-labelledby="parisHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about Paris.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-2">
+                <div class="card-header" id="londonHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#londonCollapse" aria-expanded="false" aria-controls="londonCollapse">
+                            London
+                        </button>
+                    </h2>
+                </div>
+                <div id="londonCollapse" class="collapse" aria-labelledby="londonHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about London.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

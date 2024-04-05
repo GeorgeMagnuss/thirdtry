@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Cities Information</h1>
+
+        <div class="accordion" id="citiesAccordion">
+            <div class="card">
+                <div class="card-header" id="japanHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#japanCollapse" aria-expanded="false" aria-controls="japanCollapse">
+                            Japan
+                        </button>
+                    </h2>
+                </div>
+                <div id="japanCollapse" class="collapse" aria-labelledby="japanHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about Japan.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-2">
+                <div class="card-header" id="australiaHeading">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#australiaCollapse" aria-expanded="false" aria-controls="australiaCollapse">
+                            Australia
+                        </button>
+                    </h2>
+                </div>
+                <div id="australiaCollapse" class="collapse" aria-labelledby="australiaHeading" data-parent="#citiesAccordion">
+                    <div class="card-body">
+                        Here will be information about Australia.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

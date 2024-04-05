@@ -1,0 +1,99 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* white color for text */
+    text-decoration: none; /* remove underline */
+    border: 1px solid black; /* black color for border */
+    border-radius: 2px; /* add rounded corners */
+    cursor: pointer;
+    margin: 3px; /* add some spacing between buttons */
+    text-align: center; /* center the text */
+    font-size: 20px; /* increase the text size to 18 pixels */
+}
+
+.blue {
+    background-color: #007bff; /* blue color */
+    width: 150px; /* Adjust as needed */
+}
+
+.white {
+    background-color: #ffffff; /* white color */
+    color: #000; /* black color for text */
+    width: 150px; /* Adjust as needed */
+}
+
+.black {
+    background-color: #000; /* black color */
+    width: 150px; /* Adjust as needed */
+
+}
+
+.button:hover {
+    opacity: 0.8; /* reduce opacity on hover */
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px; /* Adjust the width as needed */
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Show the tooltip text when hovering over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Style for tabs */
+.tabs {
+    margin-top: 1px;
+    display: flex;
+}
+
+.tab {
+    flex: 0.255; /* Adjusted width */
+    text-align: center;
+    padding: 7px; /* Reduced padding */
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+    border-radius: 1px 1px 0 0;
+    font-size: 14px; /* Reduced font size */
+}
+
+.tab:hover {
+    background-color: #5400b3;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-top: none;
+    font-size: 16px; /* Adjusted font size */
+}
+
+.tab-content.active {
+    display: block;
+}
